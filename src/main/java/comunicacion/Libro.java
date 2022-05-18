@@ -24,6 +24,8 @@ public class Libro extends Escrito{
     public String interpretacion() {
 		return interpretacion;
 	}
+
+	//toString
     
     public String toString() {
 		return this.getOrigen() + "\n"
